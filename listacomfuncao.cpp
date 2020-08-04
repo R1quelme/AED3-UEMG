@@ -27,7 +27,7 @@ void imprimirMaior40(celula *lista){
      while(lista !=NULL){
 	 if(lista->idade > 40)
          cout << lista->nome << " " << lista->sobrenome<< " " << lista->idade << " "<< lista->sexo << endl;
-	 lista = lista->proxima;
+	       lista = lista->proxima;
      }
    }
 }
